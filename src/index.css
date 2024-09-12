@@ -1,0 +1,120 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.help-center {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #070707;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  margin: 0 5px;
+  padding: 8px 16px;
+  background-color: #484747;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-in {
+  background-color: #4a90e2;
+  color: white;
+}
+.yo{
+  color: black;
+}
+
+/* Main content styles */
+.main-content {
+  margin-top: 40px;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border: 1px solid  #f5f3f3;
+}
+
+/* Help section styles */
+.help-sections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.help-section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.help-section h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.help-section p {
+  margin-bottom: 10px;
+}
+
+.help-section a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #464646;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
+
+.footer .links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer .column {
+  text-align: left;
+}
+
+.footer .column h4 {
+  margin-bottom: 10px;
+}
+
+.footer .column a {
+  display: block;
+  color: #eff3f8;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #888;
+}
